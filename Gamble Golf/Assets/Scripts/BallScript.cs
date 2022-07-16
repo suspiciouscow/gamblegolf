@@ -1,14 +1,16 @@
-using System.Collections;
+    using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class BallScript : MonoBehaviour
-{
+public class BallScript : MonoBehaviour {
+
     public float power = 10f;
     public Rigidbody rb;
 
     public Vector3 minPower;
     public Vector3 maxPower;
+
+    public TrajectoryLine trajectoryLine;
 
     Camera camera;
     Vector3 force;
@@ -18,16 +20,29 @@ public class BallScript : MonoBehaviour
 
     void Start() {
         camera = Camera.main;
+        trajectoryLine = GetComponent<TrajectoryLine>();
     }
 
     void Update() {
+
+        // Get mouse position when press
         if (Input.GetMouseButtonDown(0)) {
-            // Get Mouse Position when press
             Vector3 mousePos = Input.mousePosition;
             mousePos.z = 10;
             startPoint = camera.ScreenToWorldPoint(mousePos);
             Debug.Log(startPoint);
         }
+
+        // Render line FX during button hold
+        if (Input.GetMouseButton(0)) {
+            Vector3 mousePos = Input.mousePosition;
+            mousePos.z = 10;
+            Vector3 currentPoint = camera.ScreenToWorldPoint(mousePos);
+            trajectoryLine.RenderLine(startPoint, currentPoint);
+
+        }
+
+        // Turn off line FX and launch ball upon button release
         if (Input.GetMouseButtonUp(0)) {
             // Get Mouse Position when let go
             Vector3 mousePos = Input.mousePosition;
@@ -39,6 +54,9 @@ public class BallScript : MonoBehaviour
                                 , 0         
                                 , Mathf.Clamp(startPoint.z - endPoint.z, minPower.z, maxPower.z));
             rb.AddForce(force * power, ForceMode.Impulse);
+
+            // Turn off line FX
+            trajectoryLine.EndLine();
         }
 
     }
