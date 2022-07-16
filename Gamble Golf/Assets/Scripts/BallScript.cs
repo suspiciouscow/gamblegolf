@@ -20,7 +20,6 @@ public class BallScript : MonoBehaviour
         cam = Camera.main;
     }
 
-
     void Update() {
         if (Input.GetMouseButtonDown(0)) {
             Vector3 mousePos = Input.mousePosition;
