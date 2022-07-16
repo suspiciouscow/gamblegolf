@@ -40,6 +40,7 @@
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
      <Compile Include="Assets\Scripts\DiceScript\DiceScript.cs" />
      <Compile Include="Assets\Scripts\BallScript.cs" />
      <Compile Include="Assets\Scripts\HoleScript.cs" />
@@ -47,6 +48,8 @@
      <Compile Include="Assets\Scripts\DiceScript\DiceCheckZoneScript.cs" />
      <Compile Include="Assets\Scripts\TrajectoryLine.cs" />
 =======
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 =======
@@ -91,6 +94,9 @@
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
@@ -125,7 +131,10 @@
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
      <None Include="Assets\Dice_6\Documentation\Readmy.txt" />
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 =======

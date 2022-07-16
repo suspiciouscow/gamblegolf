@@ -38,7 +38,10 @@ public class BallScript : MonoBehaviour {
             Debug.Log(startPoint);
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 =======
