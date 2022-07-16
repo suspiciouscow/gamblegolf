@@ -23,7 +23,6 @@ public class BallScript : MonoBehaviour {
         trajectoryLine = GetComponent<TrajectoryLine>();
     }
 
-
     void Update() {
 
         // Get mouse position when press
