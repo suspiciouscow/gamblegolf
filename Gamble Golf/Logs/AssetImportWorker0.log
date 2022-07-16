@@ -21,11 +21,19 @@ Logs/AssetImportWorker0.log
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 62922
 Successfully changed project path to: C:/Users/mikis/OneDrive/Documents/GitHub/gamblegolf3/gamblegolf/Gamble Golf
 C:/Users/mikis/OneDrive/Documents/GitHub/gamblegolf3/gamblegolf/Gamble Golf
 Using Asset Import Pipeline V2.
 Refreshing native plugins compatible for Editor in 359.04 ms, found 2 plugins.
+=======
+56414
+Successfully changed project path to: C:/Users/mikis/OneDrive/Documents/GitHub/gamblegolf3/gamblegolf/Gamble Golf
+C:/Users/mikis/OneDrive/Documents/GitHub/gamblegolf3/gamblegolf/Gamble Golf
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 48.32 ms, found 2 plugins.
+>>>>>>> Stashed changes
 =======
 56414
 Successfully changed project path to: C:/Users/mikis/OneDrive/Documents/GitHub/gamblegolf3/gamblegolf/Gamble Golf
@@ -89,6 +97,7 @@ Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.36f1/Editor/Data/Mo
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56408
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
@@ -103,6 +112,8 @@ Domain Reload Profiling:
 	ReloadAssembly (3711ms)
 		BeginReloadAssembly (661ms)
 =======
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 =======
@@ -131,6 +142,9 @@ Domain Reload Profiling:
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
@@ -183,6 +197,9 @@ Domain Reload Profiling:
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
@@ -198,6 +215,7 @@ Domain Reload Profiling:
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
@@ -372,6 +390,34 @@ Domain Reload Profiling:
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
 >>>>>>> Stashed changes
+=======
+Registered in 0.004171 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.221 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1222ms)
+		BeginReloadAssembly (168ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (21ms)
+		EndReloadAssembly (959ms)
+			LoadAssemblies (132ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (337ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (47ms)
+			SetupLoadedEditorAssemblies (358ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+>>>>>>> Stashed changes
 				BeforeProcessingInitializeOnLoad (117ms)
 				ProcessInitializeOnLoadAttributes (213ms)
 				ProcessInitializeOnLoadMethodAttributes (15ms)
@@ -380,6 +426,9 @@ Domain Reload Profiling:
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
@@ -395,6 +444,7 @@ Domain Reload Profiling:
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
@@ -418,6 +468,8 @@ Total: 4.682700 ms (FindLiveObjects: 0.284000 ms CreateObjectMapping: 0.127300 m
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
 Refreshing native plugins compatible for Editor in 0.52 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
@@ -431,6 +483,9 @@ Total: 3.641900 ms (FindLiveObjects: 0.190400 ms CreateObjectMapping: 0.056500 m
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
@@ -454,6 +509,7 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
@@ -642,6 +698,11 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+=======
+  path: Assets/Scripts
+  artifactKey: Guid(e9c68d0457b58c747b12c7322ad3090e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts using Guid(e9c68d0457b58c747b12c7322ad3090e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b843946edf21dff99b327a3829cb8a3f') in 0.010948 seconds 
+>>>>>>> Stashed changes
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
@@ -678,11 +739,15 @@ Mono: successfully reloaded assembly
 Domain Reload Profiling:
 	ReloadAssembly (11821ms)
 		BeginReloadAssembly (1806ms)
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (54ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 			CreateAndSetChildDomain (76ms)
 		EndReloadAssembly (2040ms)
@@ -920,6 +985,26 @@ Domain Reload Profiling:
 				AfterProcessingInitializeOnLoad (69ms)
 				EditorAssembliesLoaded (3ms)
 			ExecutionOrderSort2 (0ms)
+=======
+			CreateAndSetChildDomain (223ms)
+		EndReloadAssembly (8264ms)
+			LoadAssemblies (2097ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (3235ms)
+			ReleaseScriptCaches (4ms)
+			RebuildScriptCaches (299ms)
+			SetupLoadedEditorAssemblies (2763ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (40ms)
+				SetLoadedEditorAssemblies (4ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (937ms)
+				ProcessInitializeOnLoadAttributes (1573ms)
+				ProcessInitializeOnLoadMethodAttributes (135ms)
+				AfterProcessingInitializeOnLoad (69ms)
+				EditorAssembliesLoaded (3ms)
+			ExecutionOrderSort2 (0ms)
+>>>>>>> Stashed changes
 			AwakeInstancesAfterBackupRestoration (20ms)
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 1.48 ms, found 2 plugins.
@@ -930,6 +1015,9 @@ System memory in use after: 72.5 MB.
 
 Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2000.
 Total: 18.403100 ms (FindLiveObjects: 0.595700 ms CreateObjectMapping: 0.479000 ms MarkObjects: 17.207300 ms  DeleteObjects: 0.116300 ms)
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -944,6 +1032,7 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 Received Prepare
 Registering precompiled user dll's ...
@@ -2774,6 +2863,9 @@ Received Import Request.
 =======
 >>>>>>> Stashed changes
 =======
+>>>>>>> Stashed changes
+=======
+Received Import Request.
 >>>>>>> Stashed changes
 =======
 Received Import Request.
