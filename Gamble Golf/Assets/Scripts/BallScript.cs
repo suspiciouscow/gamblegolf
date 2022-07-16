@@ -36,7 +36,10 @@ public class BallScript : MonoBehaviour {
             mousePos.z = 10;
             startPoint = Camera.main.Screen[ToWorldPoint(mousePos);
             Debug.Log(startPoint);
+<<<<<<< Updated upstream
 
+=======
+>>>>>>> Stashed changes
         if (Input.GetMouseButton)
             force = new Vector3(-Mathf.Clamp(startPoint.x - endPoint.x, minPower.x, maxPower.x)
                                 , 0
