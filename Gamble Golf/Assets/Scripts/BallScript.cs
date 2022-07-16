@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class BallScript : MonoBehaviour {
 
-    public float power = 10f;
+    public float power = 5f;
     public Rigidbody rb;
 
     public Vector3 minPower;
@@ -16,6 +16,7 @@ public class BallScript : MonoBehaviour {
     Vector3 force;
     Vector3 startPoint;
     Vector3 endPoint;
+    int multiplier;
 
 
     void Start() {
@@ -24,6 +25,7 @@ public class BallScript : MonoBehaviour {
     }
 
     void Update() {
+        multiplier = DiceNumberTextScript.diceNumber;
 
         // Get mouse position when press
         if (Input.GetMouseButtonDown(0)) {
@@ -42,6 +44,7 @@ public class BallScript : MonoBehaviour {
 
         }
 
+        //Debug.Log(multiplier);
         // Turn off line FX and launch ball upon button release
         if (Input.GetMouseButtonUp(0)) {
             // Get Mouse Position when let go
@@ -53,7 +56,7 @@ public class BallScript : MonoBehaviour {
             force = new Vector3(Mathf.Clamp(startPoint.x - endPoint.x, minPower.x, maxPower.x)
                                 , 0         
                                 , Mathf.Clamp(startPoint.z - endPoint.z, minPower.z, maxPower.z));
-            rb.AddForce(force * power, ForceMode.Impulse);
+            rb.AddForce(multiplier* force * power, ForceMode.Impulse);
 
             // Turn off line FX
             trajectoryLine.EndLine();

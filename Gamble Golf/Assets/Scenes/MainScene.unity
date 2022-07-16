@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.4475525, g: 0.49307448, b: 0.55146194, a: 1}
+  m_IndirectSpecularColor: {r: 0.4475531, g: 0.4930753, b: 0.5514627, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -149,7 +149,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1134205}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 6.3, y: -0.1, z: 6.29}
+  m_LocalPosition: {x: 6.3, y: -0.02, z: -1.2}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -535,7 +535,7 @@ GameObject:
   - component: {fileID: 192447815}
   - component: {fileID: 192447816}
   m_Layer: 0
-  m_Name: Side4
+  m_Name: Side1
   m_TagString: Untagged
   m_Icon: {fileID: 3443629218296621865, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
@@ -1765,7 +1765,7 @@ GameObject:
   - component: {fileID: 1048710767}
   - component: {fileID: 1048710768}
   m_Layer: 0
-  m_Name: Side1
+  m_Name: Side5
   m_TagString: Untagged
   m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
@@ -1917,7 +1917,7 @@ GameObject:
   - component: {fileID: 1132542558}
   - component: {fileID: 1132542559}
   m_Layer: 0
-  m_Name: Side3
+  m_Name: Side6
   m_TagString: Untagged
   m_Icon: {fileID: 3306451490063965843, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
@@ -2069,7 +2069,7 @@ GameObject:
   - component: {fileID: 1224044106}
   - component: {fileID: 1224044107}
   m_Layer: 0
-  m_Name: Side5
+  m_Name: Side3
   m_TagString: Untagged
   m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
@@ -3025,6 +3025,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f2ed21c4f33ca60408e1074e929ff608, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  numberRolled: 0
 --- !u!1001 &1563170755
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3655,7 +3656,7 @@ GameObject:
   - component: {fileID: 1970835228}
   - component: {fileID: 1970835229}
   m_Layer: 0
-  m_Name: Side6
+  m_Name: Side2
   m_TagString: Untagged
   m_Icon: {fileID: -5938655980376293919, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
@@ -3989,7 +3990,7 @@ GameObject:
   - component: {fileID: 2022440371}
   - component: {fileID: 2022440372}
   m_Layer: 0
-  m_Name: Side2
+  m_Name: Side4
   m_TagString: Untagged
   m_Icon: {fileID: 7422848464349959988, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
