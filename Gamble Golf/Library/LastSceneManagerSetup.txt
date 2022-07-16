@@ -1,5 +1,9 @@
 sceneSetups:
+<<<<<<< HEAD
 - path: Assets/Scenes/LevelThree.unity
+=======
+- path: Assets/Scenes/MainScene.unity
+>>>>>>> upstream/main
   isLoaded: 1
   isActive: 1
   isSubScene: 0
