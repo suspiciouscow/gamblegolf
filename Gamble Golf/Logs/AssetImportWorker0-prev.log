@@ -1,0 +1,238 @@
+Using pre-set license
+Built from 'master' branch; Version is '2020.3.36f1 (71f96b79b9f0) revision 7469419'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19042) 64bit Enterprise' Language: 'en' Physical Memory: 16301 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.36f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Unity/gamblegolf/Gamble Golf
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+63212
+Successfully changed project path to: C:/Unity/gamblegolf/Gamble Golf
+C:/Unity/gamblegolf/Gamble Golf
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 117.13 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.36f1 (71f96b79b9f0)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.36f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Unity/gamblegolf/Gamble Golf/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) UHD Graphics 620 (ID=0x5917)
+    Vendor:   
+    VRAM:     8150 MB
+    Driver:   30.0.101.1339
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.36f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.36f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.36f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56932
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.36f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.007015 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 113.85 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.978 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1979ms)
+		BeginReloadAssembly (210ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (2ms)
+		EndReloadAssembly (1503ms)
+			LoadAssemblies (202ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (432ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (79ms)
+			SetupLoadedEditorAssemblies (748ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (114ms)
+				BeforeProcessingInitializeOnLoad (21ms)
+				ProcessInitializeOnLoadAttributes (363ms)
+				ProcessInitializeOnLoadMethodAttributes (237ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.019450 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.78 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  8.772 seconds
+Domain Reload Profiling:
+	ReloadAssembly (8778ms)
+		BeginReloadAssembly (1619ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (46ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (130ms)
+		EndReloadAssembly (6405ms)
+			LoadAssemblies (1128ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (3911ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (561ms)
+			SetupLoadedEditorAssemblies (835ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (159ms)
+				ProcessInitializeOnLoadAttributes (601ms)
+				ProcessInitializeOnLoadMethodAttributes (47ms)
+				AfterProcessingInitializeOnLoad (14ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.21 seconds
+Refreshing native plugins compatible for Editor in 2.16 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1560 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 73.1 MB.
+System memory in use after: 73.2 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 1997.
+Total: 10.335100 ms (FindLiveObjects: 0.793600 ms CreateObjectMapping: 0.362700 ms MarkObjects: 8.948200 ms  DeleteObjects: 0.227900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Scenes/MainScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6dd2c9b5bde70918dc75b81203ae3bc2') in 0.025379 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.418356 seconds.
+  path: Assets/Lowpoly Forest Pack/Prefabs
+  artifactKey: Guid(db72a9502dade45438b46fad8d329f00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lowpoly Forest Pack/Prefabs using Guid(db72a9502dade45438b46fad8d329f00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bc6053e12b0758925342b15edd0ff24') in 0.024535 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.126653 seconds.
+  path: Assets/Lowpoly Forest Pack/Prefabs2D
+  artifactKey: Guid(e182ed08cdcb28d4cac50fd20466563c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lowpoly Forest Pack/Prefabs2D using Guid(e182ed08cdcb28d4cac50fd20466563c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '545aff5726c48811dec36a494bbd059b') in 0.044902 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000724 seconds.
+  path: Assets/Lowpoly Forest Pack/Prefabs2D/2DBush01.prefab
+  artifactKey: Guid(71873b7bc5cec5840889d9507834aeb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lowpoly Forest Pack/Prefabs2D/2DBush01.prefab using Guid(71873b7bc5cec5840889d9507834aeb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7f104e936f3a3317db7654d73cd8624') in 0.628105 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000339 seconds.
+  path: Assets/Lowpoly Forest Pack/Prefabs2D/2DTree01.prefab
+  artifactKey: Guid(a56b11080fc8b2f44a26426d0af0c4c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lowpoly Forest Pack/Prefabs2D/2DTree01.prefab using Guid(a56b11080fc8b2f44a26426d0af0c4c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '538635696a7ffd2795db6acb89738537') in 0.072635 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000412 seconds.
+  path: Assets/Lowpoly Forest Pack/Prefabs2D/2DBush04.prefab
+  artifactKey: Guid(9eafba0287d320449aa19e291f8e3bc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lowpoly Forest Pack/Prefabs2D/2DBush04.prefab using Guid(9eafba0287d320449aa19e291f8e3bc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9dbc10a79f256fe86375a250f2e8d99') in 0.055610 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000363 seconds.
+  path: Assets/Lowpoly Forest Pack/Prefabs2D/2DTree02.prefab
+  artifactKey: Guid(cd1bccbcc55e7a04bb8393a94126c524) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lowpoly Forest Pack/Prefabs2D/2DTree02.prefab using Guid(cd1bccbcc55e7a04bb8393a94126c524) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cf3015208248aecd95e74810d8a7650') in 0.092146 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000528 seconds.
+  path: Assets/Lowpoly Forest Pack/Prefabs2D/2DBush02.prefab
+  artifactKey: Guid(e9d7362be65e913408fb608168328de1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lowpoly Forest Pack/Prefabs2D/2DBush02.prefab using Guid(e9d7362be65e913408fb608168328de1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5f25ad3f36073de070368aac58468cd') in 0.085217 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000714 seconds.
+  path: Assets/Lowpoly Forest Pack/Prefabs2D/2DTree05.prefab
+  artifactKey: Guid(a861a6060338e6146b01c685075137f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lowpoly Forest Pack/Prefabs2D/2DTree05.prefab using Guid(a861a6060338e6146b01c685075137f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a967d179bca87eae07a826ce38d6fb11') in 0.061179 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000476 seconds.
+  path: Assets/Lowpoly Forest Pack/Prefabs2D/2DRock03.prefab
+  artifactKey: Guid(ae8187ff448800d468bf95afde79fbe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lowpoly Forest Pack/Prefabs2D/2DRock03.prefab using Guid(ae8187ff448800d468bf95afde79fbe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3a8f616c667c08ddce30e389d1a78cf') in 0.100665 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000435 seconds.
+  path: Assets/Lowpoly Forest Pack/Prefabs2D/2DMushroom01.prefab
+  artifactKey: Guid(8a294d2947dd5174b86a37d2ba179b19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lowpoly Forest Pack/Prefabs2D/2DMushroom01.prefab using Guid(8a294d2947dd5174b86a37d2ba179b19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '361cea240ffc60bffa8f199d61a9f425') in 0.084929 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000480 seconds.
+  path: Assets/Lowpoly Forest Pack/Prefabs2D/2DRock01.prefab
+  artifactKey: Guid(5d2ab0b0c900e244085e88a6ac67dc23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lowpoly Forest Pack/Prefabs2D/2DRock01.prefab using Guid(5d2ab0b0c900e244085e88a6ac67dc23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9de8e0b0d0a21574231c9084b337e6d') in 0.084904 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000358 seconds.
+  path: Assets/Lowpoly Forest Pack/Prefabs2D/2DTree03.prefab
+  artifactKey: Guid(b208382e743a89447bb96cf4987b6338) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lowpoly Forest Pack/Prefabs2D/2DTree03.prefab using Guid(b208382e743a89447bb96cf4987b6338) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1a69bd56ab48a508f2cbb9a7b8dbd50') in 0.097967 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000829 seconds.
+  path: Assets/Lowpoly Forest Pack/Prefabs2D/2DTree06.prefab
+  artifactKey: Guid(04edb9089a205bc49a43fdef24614024) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lowpoly Forest Pack/Prefabs2D/2DTree06.prefab using Guid(04edb9089a205bc49a43fdef24614024) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f8ee9c4312811db6b9f1f50258e0cc0') in 0.084598 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/Lowpoly Forest Pack/Prefabs2D/2DTree04.prefab
+  artifactKey: Guid(710d16de88dfed940a91be405f1913e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lowpoly Forest Pack/Prefabs2D/2DTree04.prefab using Guid(710d16de88dfed940a91be405f1913e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ab9365b0637ce48b36ec4490c787a4c') in 0.079489 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000401 seconds.
+  path: Assets/Lowpoly Forest Pack/Prefabs2D/2DBush03.prefab
+  artifactKey: Guid(afc8e879670960b4a8472404bd8f50b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lowpoly Forest Pack/Prefabs2D/2DBush03.prefab using Guid(afc8e879670960b4a8472404bd8f50b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94f7385a343d968cd1c2305be1dc6370') in 0.080032 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000424 seconds.
+  path: Assets/Lowpoly Forest Pack/Prefabs2D/2DRock02.prefab
+  artifactKey: Guid(ffdd2790a559edf4b9173e1abf4bc0cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lowpoly Forest Pack/Prefabs2D/2DRock02.prefab using Guid(ffdd2790a559edf4b9173e1abf4bc0cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '900e3960332155e5260e1576dd3b1bab') in 0.079025 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 75.274015 seconds.
+  path: Assets/Scenes/TItle Scene.unity
+  artifactKey: Guid(bdb5bb7617ed5c3408f50dc87355bf16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/TItle Scene.unity using Guid(bdb5bb7617ed5c3408f50dc87355bf16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b8ec60bdf042cb98190d1d7566d3d43') in 0.028835 seconds 
