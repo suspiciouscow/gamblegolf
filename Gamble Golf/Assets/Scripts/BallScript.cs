@@ -20,7 +20,6 @@ public class BallScript : MonoBehaviour
         camera = Camera.main;
     }
 
-
     void Update() {
         if (Input.GetMouseButtonDown(0)) {
             // Get Mouse Position when press
