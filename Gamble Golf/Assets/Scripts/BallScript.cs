@@ -4,7 +4,9 @@ using UnityEngine;
 
 public class BallScript : MonoBehaviour {
 
+    public int turnCount;
     public float power = 10f;
+    private bool canShoot = true;
     public Rigidbody rb;
 
     public Vector3 minPower;
@@ -25,39 +27,43 @@ public class BallScript : MonoBehaviour {
 
     void Update() {
 
-        // Get mouse position when press
-        if (Input.GetMouseButtonDown(0)) {
-            Vector3 mousePos = Input.mousePosition;
-            mousePos.z = 10;
-            startPoint = camera.ScreenToWorldPoint(mousePos);
-            Debug.Log(startPoint);
+
+        if (canShoot) {
+            // Get mouse position when press
+            if (Input.GetMouseButtonDown(0)) {
+                Vector3 mousePos = Input.mousePosition;
+                mousePos.z = 10;
+                startPoint = camera.ScreenToWorldPoint(mousePos);
+                Debug.Log(startPoint);
+            }
+
+            // Render line FX during button hold
+            if (Input.GetMouseButton(0)) {
+                Vector3 mousePos = Input.mousePosition;
+                mousePos.z = 10;
+                Vector3 currentPoint = camera.ScreenToWorldPoint(mousePos);
+                trajectoryLine.RenderLine(startPoint, currentPoint);
+
+            }
+
+            // Turn off line FX and launch ball upon button release
+            if (Input.GetMouseButtonUp(0)) {
+                // Get Mouse Position when let go
+                Vector3 mousePos = Input.mousePosition;
+                mousePos.z = 10;
+                endPoint = camera.ScreenToWorldPoint(mousePos);
+
+                // Shoot ball
+                force = new Vector3(Mathf.Clamp(startPoint.x - endPoint.x, minPower.x, maxPower.x)
+                                    , 0         
+                                    , Mathf.Clamp(startPoint.z - endPoint.z, minPower.z, maxPower.z));
+                rb.AddForce(force * power, ForceMode.Impulse);
+
+                // Turn off line FX
+                trajectoryLine.EndLine();
+                
+                //// canShoot = false;
+            }
         }
-
-        // Render line FX during button hold
-        if (Input.GetMouseButton(0)) {
-            Vector3 mousePos = Input.mousePosition;
-            mousePos.z = 10;
-            Vector3 currentPoint = camera.ScreenToWorldPoint(mousePos);
-            trajectoryLine.RenderLine(startPoint, currentPoint);
-
-        }
-
-        // Turn off line FX and launch ball upon button release
-        if (Input.GetMouseButtonUp(0)) {
-            // Get Mouse Position when let go
-            Vector3 mousePos = Input.mousePosition;
-            mousePos.z = 10;
-            endPoint = camera.ScreenToWorldPoint(mousePos);
-
-            // Shoot ball
-            force = new Vector3(Mathf.Clamp(startPoint.x - endPoint.x, minPower.x, maxPower.x)
-                                , 0         
-                                , Mathf.Clamp(startPoint.z - endPoint.z, minPower.z, maxPower.z));
-            rb.AddForce(force * power, ForceMode.Impulse);
-
-            // Turn off line FX
-            trajectoryLine.EndLine();
-        }
-
     }
 }
