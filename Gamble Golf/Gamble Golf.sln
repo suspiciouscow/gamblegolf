@@ -2,7 +2,11 @@
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{C96E81B9-86B5-A3E8-BDAF-18167F85EC59}"
+=======
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{b9816ec9-b586-e8a3-bdaf-18167f85ec59}"
+>>>>>>> Stashed changes
 =======
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{b9816ec9-b586-e8a3-bdaf-18167f85ec59}"
 >>>>>>> Stashed changes
@@ -10,6 +14,7 @@ EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
@@ -19,10 +24,15 @@ Global
 		{C96E81B9-86B5-A3E8-BDAF-18167F85EC59}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C96E81B9-86B5-A3E8-BDAF-18167F85EC59}.Release|Any CPU.Build.0 = Release|Any CPU
 =======
+=======
+>>>>>>> Stashed changes
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{b9816ec9-b586-e8a3-bdaf-18167f85ec59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{b9816ec9-b586-e8a3-bdaf-18167f85ec59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution

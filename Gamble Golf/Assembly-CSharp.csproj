@@ -37,6 +37,7 @@
   </PropertyGroup>
   <ItemGroup>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
      <Compile Include="Assets\Scripts\DiceScript\DiceScript.cs" />
      <Compile Include="Assets\Scripts\BallScript.cs" />
      <Compile Include="Assets\Scripts\HoleScript.cs" />
@@ -44,6 +45,8 @@
      <Compile Include="Assets\Scripts\DiceScript\DiceCheckZoneScript.cs" />
      <Compile Include="Assets\Scripts\TrajectoryLine.cs" />
 =======
+=======
+>>>>>>> Stashed changes
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ShaderPropAnimator.cs" />
      <Compile Include="Assets\Scripts\BallScript.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\SkewTextExample.cs" />
@@ -79,6 +82,9 @@
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextInfoDebugTool.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventCheck.cs" />
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
@@ -104,7 +110,10 @@
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Sprite.shader" />
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
      <None Include="Assets\Dice_6\Documentation\Readmy.txt" />
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
      <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\Bangers - OFL.txt" />
