@@ -25,6 +25,7 @@ public class BallScript : MonoBehaviour {
     }
 
     void Update() {
+       
         multiplier = DiceNumberTextScript.diceNumber;
 
         // Get mouse position when press
@@ -44,7 +45,7 @@ public class BallScript : MonoBehaviour {
 
         }
 
-        //Debug.Log(multiplier);
+        Debug.Log(multiplier);
         // Turn off line FX and launch ball upon button release
         if (Input.GetMouseButtonUp(0)) {
             // Get Mouse Position when let go
@@ -60,6 +61,7 @@ public class BallScript : MonoBehaviour {
 
             // Turn off line FX
             trajectoryLine.EndLine();
+             Score.score++;
         }
 
     }
