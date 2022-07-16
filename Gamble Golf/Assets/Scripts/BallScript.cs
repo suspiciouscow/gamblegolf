@@ -37,7 +37,10 @@ public class BallScript : MonoBehaviour {
             startPoint = Camera.main.Screen[ToWorldPoint(mousePos);
             Debug.Log(startPoint);
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
         if (Input.GetMouseButton)
