@@ -25,9 +25,9 @@ public class BallScript : MonoBehaviour
         if (Input.GetMouseButtonDown(0)) {
             Vector3 mousePos = Input.mousePosition;
             mousePos.z = 10;
-            startPoint = Camera.main.ScreenToWorldPoint(mousePos);
+            startPoint = Camera.main.Screen[ToWorldPoint(mousePos);
             Debug.Log(startPoint);
-
+        if (Input.GetMouseButton)
             force = new Vector3(-Mathf.Clamp(startPoint.x - endPoint.x, minPower.x, maxPower.x)
                                 , 0
                                 , -Mathf.Clamp(startPoint.z - endPoint.z, minPower.z, maxPower.z));
