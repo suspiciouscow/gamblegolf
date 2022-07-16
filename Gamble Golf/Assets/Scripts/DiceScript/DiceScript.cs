@@ -6,6 +6,7 @@ public class DiceScript : MonoBehaviour {
 
 	static Rigidbody rb;
 	public static Vector3 diceVelocity;
+	public int numberRolled;
 
 	// Use this for initialization
 	void Start () {
