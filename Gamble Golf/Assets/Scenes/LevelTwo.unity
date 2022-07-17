@@ -5860,7 +5860,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   continueButton: {fileID: 1537713825}
-  nextLevel: LevelThree
+  nextLevel: EndingScene
 --- !u!114 &1537713825
 MonoBehaviour:
   m_ObjectHideFlags: 0
