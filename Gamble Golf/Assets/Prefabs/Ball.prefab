@@ -237,7 +237,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe0ba573c5b369d44b5425b88aea9e42, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canShoot: 0
   power: 40
   rb: {fileID: 8983650856651981425}
   minPower: {x: -8, y: 0, z: -8}

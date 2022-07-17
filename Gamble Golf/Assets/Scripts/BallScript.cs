@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class BallScript : MonoBehaviour {
 
-    public bool canShoot = false;
+    public static bool canShoot = false;
     public float power = 5f;
     public Rigidbody rb;
 
@@ -13,6 +13,7 @@ public class BallScript : MonoBehaviour {
     public Vector3 maxPower;
 
     public TrajectoryLine trajectoryLine;
+
 
     Camera camera;
     Vector3 force;
@@ -36,7 +37,6 @@ public class BallScript : MonoBehaviour {
                 Vector3 mousePos = Input.mousePosition;
                 mousePos.z = 10;
                 startPoint = camera.ScreenToWorldPoint(mousePos);
-                Debug.Log(startPoint);
             }
 
             // Render line FX during button hold
@@ -48,7 +48,6 @@ public class BallScript : MonoBehaviour {
 
             }
             
-            Debug.Log(multiplier);
             // Turn off line FX and launch ball upon button release
             if (Input.GetMouseButtonUp(0)) {
                 // Get Mouse Position when let go
@@ -70,7 +69,7 @@ public class BallScript : MonoBehaviour {
         // Helps ball stop faster
 
         if (rb.velocity != new Vector3(0, 0, 0)) {
-            canShoot = false;
+            DiceScript.canRoll = true;
         }
         else { 
             canShoot = true;
