@@ -29,6 +29,7 @@ public class DiceScript : MonoBehaviour {
 			rb.AddTorque (dirX, dirY, dirZ);
 			canRoll = false;
 			BallScript.canShoot = true;
+			Debug.Log("sdjhhdhjdjhdjd");
 		}
 	}
 }
