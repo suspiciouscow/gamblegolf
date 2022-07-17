@@ -2,14 +2,16 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class HoleScript : MonoBehaviour
 {
     
     public ParticleSystem particleSystem;
-    public string nextLevel;
+    public Button continueButton;
 
     void Start() {
+        continueButton.gameObject.SetActive(false);
     }
 
     void OnTriggerEnter(Collider collider) 
@@ -17,7 +19,7 @@ public class HoleScript : MonoBehaviour
         if(collider.gameObject.tag == "Ball") {
             collider.gameObject.SetActive(false);
             particleSystem.Play();
-            SceneManager.LoadScene(nextLevel);
+            continueButton.gameObject.SetActive(true);
         }
     }
 

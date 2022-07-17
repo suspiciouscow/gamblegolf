@@ -1,6 +1,7 @@
-    using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class BallScript : MonoBehaviour {
 
@@ -18,7 +19,6 @@ public class BallScript : MonoBehaviour {
     Vector3 startPoint;
     Vector3 endPoint;
     int multiplier;
-
 
     void Start() {
         camera = Camera.main;
