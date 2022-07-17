@@ -1530,6 +1530,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   particleSystem: {fileID: 2020843758}
+  nextLevel: LevelTwo
 --- !u!1001 &868337617
 PrefabInstance:
   m_ObjectHideFlags: 0
