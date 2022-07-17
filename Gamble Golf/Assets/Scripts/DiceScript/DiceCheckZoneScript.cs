@@ -35,6 +35,7 @@ public class DiceCheckZoneScript : MonoBehaviour {
 				DiceNumberTextScript.diceNumber = 1;
 				break;
 			}
+			BallScript.canShoot = true;	
 		}
 	}
 }

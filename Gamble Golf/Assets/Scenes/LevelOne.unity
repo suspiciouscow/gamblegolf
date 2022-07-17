@@ -1281,6 +1281,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 369071521}
   m_CullTransparentMesh: 1
+--- !u!54 &439051269 stripped
+Rigidbody:
+  m_CorrespondingSourceObject: {fileID: 8983650856651981425, guid: 6a8b969c8bd38cc4080d14825d1cbbbe, type: 3}
+  m_PrefabInstance: {fileID: 1097308985}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &458088610
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2308,6 +2313,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 8983650856651981424, guid: 6a8b969c8bd38cc4080d14825d1cbbbe, type: 3}
+      propertyPath: rigidBody
+      value: 
+      objectReference: {fileID: 439051269}
     - target: {fileID: 8983650856651981427, guid: 6a8b969c8bd38cc4080d14825d1cbbbe, type: 3}
       propertyPath: m_Name
       value: Ball

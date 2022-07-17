@@ -7,7 +7,7 @@ public class BallScript : MonoBehaviour {
 
     public static bool canShoot = false;
     public float power = 5f;
-    public Rigidbody rb;
+    public Rigidbody rigidBody;
 
     public Vector3 minPower;
     public Vector3 maxPower;
@@ -28,7 +28,6 @@ public class BallScript : MonoBehaviour {
 
     void Update() {
 
-       
         multiplier = DiceNumberTextScript.diceNumber;
 
         if (canShoot) {
@@ -59,23 +58,23 @@ public class BallScript : MonoBehaviour {
                 force = new Vector3(Mathf.Clamp(startPoint.x - endPoint.x, minPower.x, maxPower.x)
                                     , 0         
                                     , Mathf.Clamp(startPoint.z - endPoint.z, minPower.z, maxPower.z));
-                rb.AddForce(multiplier* force * power, ForceMode.Impulse);
-
+                rigidBody.AddForce(multiplier* force * power, ForceMode.Impulse);
                 // Turn off line FX
                 trajectoryLine.EndLine();
                 Score.score++;
+                canShoot = false;
             }
         }
         // Helps ball stop faster
 
-        if (rb.velocity != new Vector3(0, 0, 0)) {
+        if (rigidBody.velocity != new Vector3(0, 0, 0)) {
             DiceScript.canRoll = true;
         }
         else { 
-            canShoot = true;
+            DiceScript.canRoll = true;
         }
-        if (Mathf.Abs(rb.velocity.x) > 0.7f && Mathf.Abs(rb.velocity.y) > 0.7f && Mathf.Abs(rb.velocity.z) > 0.7f && !canShoot) {
-                rb.velocity = new Vector3(0, 0, 0);
+        if (Mathf.Abs(rigidBody.velocity.x) > 0.7f && Mathf.Abs(rigidBody.velocity.y) > 0.7f && Mathf.Abs(rigidBody.velocity.z) > 0.7f && !canShoot) {
+                rigidBody.velocity = new Vector3(0, 0, 0);
         }
         
     }
