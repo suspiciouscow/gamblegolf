@@ -1,6 +1,7 @@
-    using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class BallScript : MonoBehaviour {
 
@@ -19,13 +20,13 @@ public class BallScript : MonoBehaviour {
     Vector3 endPoint;
     int multiplier;
 
-
     void Start() {
         camera = Camera.main;
         trajectoryLine = GetComponent<TrajectoryLine>();
     }
 
     void Update() {
+
        
         multiplier = DiceNumberTextScript.diceNumber;
 
@@ -64,16 +65,19 @@ public class BallScript : MonoBehaviour {
                 // Turn off line FX
                 trajectoryLine.EndLine();
                 Score.score++;
-
             }
         }
+        // Helps ball stop faster
 
         if (rb.velocity != new Vector3(0, 0, 0)) {
             canShoot = false;
         }
-        else {
+        else { 
             canShoot = true;
         }
-
+        if (Mathf.Abs(rb.velocity.x) > 0.7f && Mathf.Abs(rb.velocity.y) > 0.7f && Mathf.Abs(rb.velocity.z) > 0.7f && !canShoot) {
+                rb.velocity = new Vector3(0, 0, 0);
+        }
+        
     }
 }
