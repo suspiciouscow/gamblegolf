@@ -581,7 +581,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f983fb8fda4d3b41aac4f540b226c7f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SpawnPoint: {x: 20.1, y: 0.67, z: 0}
 --- !u!65 &191003194
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -669,7 +668,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f983fb8fda4d3b41aac4f540b226c7f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SpawnPoint: {x: 20.1, y: 0.67, z: 0}
 --- !u!65 &215460644
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -691,7 +689,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 215460642}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.6778641, y: 4.8547, z: -22.074358}
+  m_LocalPosition: {x: -4.52, y: 4.8547, z: -22.074358}
   m_LocalScale: {x: 1, y: 6.367, z: 1}
   m_Children: []
   m_Father: {fileID: 1812887951}
@@ -3174,7 +3172,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f983fb8fda4d3b41aac4f540b226c7f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SpawnPoint: {x: 20.1, y: 0.67, z: 0}
 --- !u!65 &1691994970
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3232,7 +3229,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f983fb8fda4d3b41aac4f540b226c7f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SpawnPoint: {x: 20.1, y: 0.67, z: 0}
 --- !u!65 &1709452116
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8971,7 +8967,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f983fb8fda4d3b41aac4f540b226c7f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SpawnPoint: {x: 20.1, y: 0.67, z: 0}
 --- !u!65 &2050436886
 BoxCollider:
   m_ObjectHideFlags: 0
