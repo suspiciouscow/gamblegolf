@@ -12,6 +12,10 @@ public class CameraScript : MonoBehaviour
         ball = GameObject.Find("Ball");
         offset = new Vector3 (0, transform.position.y, 0);
     }
+
+    void Update() {
+        LateUpdate();
+    }
     
     void LateUpdate() {
         Vector3 position = ball.transform.position;
