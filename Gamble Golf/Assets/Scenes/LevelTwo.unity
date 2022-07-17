@@ -393,10 +393,6 @@ PrefabInstance:
       value: Hole
       objectReference: {fileID: 0}
     - target: {fileID: 6183895416892332844, guid: 59e60f68258583340b9275fd56c30737, type: 3}
-      propertyPath: nextLevel
-      value: LevelThree
-      objectReference: {fileID: 0}
-    - target: {fileID: 6183895416892332844, guid: 59e60f68258583340b9275fd56c30737, type: 3}
       propertyPath: continueButton
       value: 
       objectReference: {fileID: 1537713825}
@@ -6003,7 +5999,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6138043921473953259, guid: 0d2b9188252a78b4298fb8e34d9229ee, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 7.93
+      value: 0.36
       objectReference: {fileID: 0}
     - target: {fileID: 6138043921473953259, guid: 0d2b9188252a78b4298fb8e34d9229ee, type: 3}
       propertyPath: m_LocalPosition.y

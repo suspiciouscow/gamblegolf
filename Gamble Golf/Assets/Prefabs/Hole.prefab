@@ -97,6 +97,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   particleSystem: {fileID: 6183895416422298655}
+  continueButton: {fileID: 0}
 --- !u!64 &6183895416892332840
 MeshCollider:
   m_ObjectHideFlags: 0
