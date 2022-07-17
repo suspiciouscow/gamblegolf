@@ -15,6 +15,7 @@ C:/Users/mikis/OneDrive/Documents/GitHub/gamblegolf3/gamblegolf/Gamble Golf
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
+<<<<<<< Updated upstream:Gamble Golf/Logs/AssetImportWorker0.log
 <<<<<<< Updated upstream
 58699
 Successfully changed project path to: C:/Users/mikis/OneDrive/Documents/GitHub/gamblegolf3/gamblegolf/Gamble Golf
@@ -28,6 +29,13 @@ C:/Users/mikis/OneDrive/Documents/GitHub/gamblegolf3/gamblegolf/Gamble Golf
 Using Asset Import Pipeline V2.
 Refreshing native plugins compatible for Editor in 185.64 ms, found 2 plugins.
 >>>>>>> Stashed changes
+=======
+57899
+Successfully changed project path to: C:/Users/mikis/OneDrive/Documents/GitHub/gamblegolf3/gamblegolf/Gamble Golf
+C:/Users/mikis/OneDrive/Documents/GitHub/gamblegolf3/gamblegolf/Gamble Golf
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 185.64 ms, found 2 plugins.
+>>>>>>> Stashed changes:Gamble Golf/Logs/AssetImportWorker0-prev.log
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.36f1 (71f96b79b9f0)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.36f1/Editor/Data/Resources/UnitySubsystems
@@ -43,6 +51,7 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.36f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.36f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.36f1/Editor/Data/MonoBleedingEdge/etc'
+<<<<<<< Updated upstream:Gamble Golf/Logs/AssetImportWorker0.log
 <<<<<<< Updated upstream
 Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56504
 Begin MonoManager ReloadAssembly
@@ -58,6 +67,8 @@ Domain Reload Profiling:
 	ReloadAssembly (799ms)
 		BeginReloadAssembly (110ms)
 =======
+=======
+>>>>>>> Stashed changes:Gamble Golf/Logs/AssetImportWorker0-prev.log
 Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56508
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
@@ -71,12 +82,16 @@ Mono: successfully reloaded assembly
 Domain Reload Profiling:
 	ReloadAssembly (3711ms)
 		BeginReloadAssembly (362ms)
+<<<<<<< Updated upstream:Gamble Golf/Logs/AssetImportWorker0.log
 >>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes:Gamble Golf/Logs/AssetImportWorker0-prev.log
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
+<<<<<<< Updated upstream:Gamble Golf/Logs/AssetImportWorker0.log
 <<<<<<< Updated upstream
 		EndReloadAssembly (577ms)
 			LoadAssemblies (107ms)
@@ -85,9 +100,19 @@ Domain Reload Profiling:
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (37ms)
 			SetupLoadedEditorAssemblies (223ms)
+=======
+		EndReloadAssembly (2896ms)
+			LoadAssemblies (361ms)
+			RebuildTransferFunctionScriptingTraits (1ms)
+			SetupTypeCache (1731ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (68ms)
+			SetupLoadedEditorAssemblies (236ms)
+>>>>>>> Stashed changes:Gamble Golf/Logs/AssetImportWorker0-prev.log
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
+				InitializePlatformSupportModulesInManaged (8ms)
 				SetLoadedEditorAssemblies (0ms)
+<<<<<<< Updated upstream:Gamble Golf/Logs/AssetImportWorker0.log
 				RefreshPlugins (55ms)
 				BeforeProcessingInitializeOnLoad (16ms)
 				ProcessInitializeOnLoadAttributes (114ms)
@@ -103,17 +128,23 @@ Domain Reload Profiling:
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (8ms)
 				SetLoadedEditorAssemblies (0ms)
+=======
+>>>>>>> Stashed changes:Gamble Golf/Logs/AssetImportWorker0-prev.log
 				RefreshPlugins (62ms)
 				BeforeProcessingInitializeOnLoad (20ms)
 				ProcessInitializeOnLoadAttributes (112ms)
 				ProcessInitializeOnLoadMethodAttributes (34ms)
+<<<<<<< Updated upstream:Gamble Golf/Logs/AssetImportWorker0.log
 >>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes:Gamble Golf/Logs/AssetImportWorker0-prev.log
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
+<<<<<<< Updated upstream:Gamble Golf/Logs/AssetImportWorker0.log
 <<<<<<< Updated upstream
 Registered in 0.003817 seconds.
 Begin MonoManager ReloadAssembly
@@ -125,10 +156,23 @@ Mono: successfully reloaded assembly
 Domain Reload Profiling:
 	ReloadAssembly (1138ms)
 		BeginReloadAssembly (173ms)
+=======
+Registered in 0.003934 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.22 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.981 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2983ms)
+		BeginReloadAssembly (363ms)
+>>>>>>> Stashed changes:Gamble Golf/Logs/AssetImportWorker0-prev.log
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
+			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
+<<<<<<< Updated upstream:Gamble Golf/Logs/AssetImportWorker0.log
 			CreateAndSetChildDomain (24ms)
 		EndReloadAssembly (901ms)
 			LoadAssemblies (113ms)
@@ -170,6 +214,20 @@ Domain Reload Profiling:
 				InitializePlatformSupportModulesInManaged (18ms)
 				SetLoadedEditorAssemblies (2ms)
 				RefreshPlugins (1ms)
+=======
+			CreateAndSetChildDomain (40ms)
+		EndReloadAssembly (2485ms)
+			LoadAssemblies (280ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1048ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (185ms)
+			SetupLoadedEditorAssemblies (661ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (18ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (1ms)
+>>>>>>> Stashed changes:Gamble Golf/Logs/AssetImportWorker0-prev.log
 				BeforeProcessingInitializeOnLoad (205ms)
 				ProcessInitializeOnLoadAttributes (393ms)
 				ProcessInitializeOnLoadMethodAttributes (31ms)
@@ -259,13 +317,17 @@ Domain Reload Profiling:
 				RefreshPlugins (0ms)
 				BeforeProcessingInitializeOnLoad (98ms)
 				ProcessInitializeOnLoadAttributes (200ms)
+<<<<<<< Updated upstream:Gamble Golf/Logs/AssetImportWorker0.log
 >>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes:Gamble Golf/Logs/AssetImportWorker0-prev.log
 				ProcessInitializeOnLoadMethodAttributes (17ms)
 				AfterProcessingInitializeOnLoad (8ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (2ms)
 Platform modules already initialized, skipping
+<<<<<<< Updated upstream:Gamble Golf/Logs/AssetImportWorker0.log
 <<<<<<< Updated upstream
 ========================================================================
 Worker process is ready to serve import requests
@@ -279,6 +341,8 @@ System memory in use after: 88.9 MB.
 Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2336.
 Total: 3.349500 ms (FindLiveObjects: 0.166500 ms CreateObjectMapping: 0.071000 ms MarkObjects: 2.984100 ms  DeleteObjects: 0.126900 ms)
 =======
+=======
+>>>>>>> Stashed changes:Gamble Golf/Logs/AssetImportWorker0-prev.log
 Refreshing native plugins compatible for Editor in 0.47 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1547 Unused Serialized files (Serialized files now loaded: 0)
@@ -287,7 +351,10 @@ System memory in use after: 73.6 MB.
 
 Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2011.
 Total: 3.128000 ms (FindLiveObjects: 0.153300 ms CreateObjectMapping: 0.056800 ms MarkObjects: 2.888700 ms  DeleteObjects: 0.027800 ms)
+<<<<<<< Updated upstream:Gamble Golf/Logs/AssetImportWorker0.log
 >>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes:Gamble Golf/Logs/AssetImportWorker0-prev.log
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -302,6 +369,7 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
+<<<<<<< Updated upstream:Gamble Golf/Logs/AssetImportWorker0.log
 <<<<<<< Updated upstream
   path: Assets/New Terrain 1.asset
   artifactKey: Guid(9bd9c71b333bd994989a9db44e8d591f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
@@ -313,6 +381,8 @@ Received Import Request.
   artifactKey: Guid(8ef6f7dc88db7e74ab1b1f7d1d7ebc92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/New Terrain.asset using Guid(8ef6f7dc88db7e74ab1b1f7d1d7ebc92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b3c3e9a15964f182c05adc5013b8f4e') in 0.014280 seconds 
 =======
+=======
+>>>>>>> Stashed changes:Gamble Golf/Logs/AssetImportWorker0-prev.log
   Time since last request: 470.469749 seconds.
   path: Assets/Scripts/DiceScript
   artifactKey: Guid(1772246f1a5cf064ca37b075ae825649) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
@@ -323,5 +393,8 @@ Received Import Request.
   path: Assets/Scripts/DiceScript/DiceScript.cs
   artifactKey: Guid(f2ed21c4f33ca60408e1074e929ff608) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Scripts/DiceScript/DiceScript.cs using Guid(f2ed21c4f33ca60408e1074e929ff608) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc1eaa101f2d2c5ebb157dd7b57bdf00') in 0.004107 seconds 
+<<<<<<< Updated upstream:Gamble Golf/Logs/AssetImportWorker0.log
 >>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes:Gamble Golf/Logs/AssetImportWorker0-prev.log
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
