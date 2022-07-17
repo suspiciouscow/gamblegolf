@@ -49,8 +49,8 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts\DiceScript\DiceScript.cs" />
      <Compile Include="Assets\Scripts\BallScript.cs" />
+     <Compile Include="Assets\Scripts\MainMenu.cs" />
      <Compile Include="Assets\Scripts\HoleScript.cs" />
-     <Compile Include="Assets\Scripts\MainMenuScript.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\EnvMapAnimator.cs" />
      <Compile Include="Assets\Scripts\DiceScript\DiceNumberTextScript.cs" />
      <Compile Include="Assets\Scripts\DiceScript\DiceCheckZoneScript.cs" />
@@ -650,11 +650,17 @@
  <Reference Include="Unity.VSCode.Editor">
  <HintPath>C:/Unity/gamblegolf/Gamble Golf/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
  </Reference>
+ <Reference Include="Unity.ProBuilder.AssetIdRemapUtility">
+ <HintPath>C:/Unity/gamblegolf/Gamble Golf/Library/ScriptAssemblies/Unity.ProBuilder.AssetIdRemapUtility.dll</HintPath>
+ </Reference>
  <Reference Include="Unity.TextMeshPro.Editor">
  <HintPath>C:/Unity/gamblegolf/Gamble Golf/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.VisualStudio.Editor">
  <HintPath>C:/Unity/gamblegolf/Gamble Golf/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.ProBuilder.AddOns.Editor">
+ <HintPath>C:/Unity/gamblegolf/Gamble Golf/Library/ScriptAssemblies/Unity.ProBuilder.AddOns.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Timeline.Editor">
  <HintPath>C:/Unity/gamblegolf/Gamble Golf/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
@@ -664,6 +670,12 @@
  </Reference>
  <Reference Include="Unity.TextMeshPro">
  <HintPath>C:/Unity/gamblegolf/Gamble Golf/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.ProBuilder">
+ <HintPath>C:/Unity/gamblegolf/Gamble Golf/Library/ScriptAssemblies/Unity.ProBuilder.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.ProBuilder.Editor">
+ <HintPath>C:/Unity/gamblegolf/Gamble Golf/Library/ScriptAssemblies/Unity.ProBuilder.Editor.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.UI">
  <HintPath>C:/Unity/gamblegolf/Gamble Golf/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
