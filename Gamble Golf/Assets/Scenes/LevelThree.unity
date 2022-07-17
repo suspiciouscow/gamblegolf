@@ -1043,6 +1043,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   particleSystem: {fileID: 0}
+  nextLevel: LevelFour
 --- !u!136 &499258334
 CapsuleCollider:
   m_ObjectHideFlags: 0
