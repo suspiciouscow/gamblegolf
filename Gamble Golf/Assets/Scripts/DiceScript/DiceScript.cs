@@ -7,6 +7,7 @@ public class DiceScript : MonoBehaviour {
 	static Rigidbody rb;
 	public static Vector3 diceVelocity;
 	public int numberRolled;
+	public static bool canRoll = true;
 
 	// Use this for initialization
 	void Start () {
@@ -17,7 +18,7 @@ public class DiceScript : MonoBehaviour {
 	void Update () {
 		diceVelocity = rb.velocity;
 
-		if (Input.GetKeyDown (KeyCode.Space)) {
+		if (Input.GetKeyDown (KeyCode.Space) && canRoll) {
 			DiceNumberTextScript.diceNumber = 0;
 			float dirX = Random.Range (0, 500);
 			float dirY = Random.Range (0, 500);
@@ -26,6 +27,8 @@ public class DiceScript : MonoBehaviour {
 			transform.rotation = Quaternion.identity;
 			rb.AddForce (transform.up * 500);
 			rb.AddTorque (dirX, dirY, dirZ);
+			canRoll = false;
+			BallScript.canShoot = true;
 		}
 	}
 }
