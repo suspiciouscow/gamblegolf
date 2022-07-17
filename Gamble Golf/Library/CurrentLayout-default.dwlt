@@ -23,7 +23,11 @@ MonoBehaviour:
   m_RootView: {fileID: 6}
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   m_MinSize: {x: 875, y: 300}
+=======
+  m_MinSize: {x: 875, y: 542}
+>>>>>>> Stashed changes
 =======
   m_MinSize: {x: 875, y: 542}
 >>>>>>> Stashed changes
@@ -66,6 +70,9 @@ MonoBehaviour:
   vertical: 0
   controlID: 105
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
@@ -186,6 +193,9 @@ MonoBehaviour:
     height: 918
   m_MinSize: {x: 875, y: 542}
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
@@ -274,6 +284,9 @@ MonoBehaviour:
   vertical: 1
   controlID: 44
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
@@ -303,7 +316,11 @@ MonoBehaviour:
   vertical: 0
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   controlID: 62
+=======
+  controlID: 45
+>>>>>>> Stashed changes
 =======
   controlID: 45
 >>>>>>> Stashed changes
@@ -329,12 +346,15 @@ MonoBehaviour:
     y: 0
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     width: 595.3333
     height: 310
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 16}
 =======
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
     width: 862
@@ -401,9 +421,15 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     m_SelectedIDs: 4a400000
     m_LastClickedID: 16458
     m_ExpandedIDs: 000000001c4000004a40000052400000
+=======
+    m_SelectedIDs: b8630000
+    m_LastClickedID: 25528
+    m_ExpandedIDs: 000000002e400000b463000000ca9a3b
+>>>>>>> Stashed changes
 =======
     m_SelectedIDs: b8630000
     m_LastClickedID: 25528
@@ -468,10 +494,13 @@ MonoBehaviour:
   m_ListAreaState:
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
     m_HadKeyboardFocusLastEvent: 0
 =======
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
     m_SelectedInstanceIDs: ce3e0000
@@ -496,7 +525,11 @@ MonoBehaviour:
       m_IsRenamingFilename: 1
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       m_ClientGUIView: {fileID: 5}
+=======
+      m_ClientGUIView: {fileID: 11}
+>>>>>>> Stashed changes
 =======
       m_ClientGUIView: {fileID: 11}
 >>>>>>> Stashed changes
@@ -589,6 +622,9 @@ MonoBehaviour:
       m_LastClickedID: 16078
       m_ExpandedIDs: 70fbffff
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
@@ -653,9 +689,15 @@ MonoBehaviour:
   m_Position:
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     m_Target: {x: 160.41418, y: 47.958576, z: -187.56444}
     speed: 2
     m_Value: {x: 160.41418, y: 47.958576, z: -187.56444}
+=======
+    m_Target: {x: -1.9382346, y: 0.7182598, z: -0.8847847}
+    speed: 2
+    m_Value: {x: -1.9382346, y: 0.7182598, z: -0.8847847}
+>>>>>>> Stashed changes
 =======
     m_Target: {x: -1.9382346, y: 0.7182598, z: -0.8847847}
     speed: 2
@@ -714,6 +756,7 @@ MonoBehaviour:
   m_Rotation:
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     m_Target: {x: 0, y: 0, z: 0, w: 1}
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
@@ -724,6 +767,8 @@ MonoBehaviour:
 =======
 =======
 >>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
     m_Target: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
     speed: 2
     m_Value: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
@@ -732,6 +777,9 @@ MonoBehaviour:
     speed: 2
     m_Value: 23.811817
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
