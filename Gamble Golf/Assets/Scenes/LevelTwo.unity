@@ -299,6 +299,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Hole
       objectReference: {fileID: 0}
+    - target: {fileID: 6183895416892332844, guid: 59e60f68258583340b9275fd56c30737, type: 3}
+      propertyPath: nextLevel
+      value: LevelThree
+      objectReference: {fileID: 0}
     - target: {fileID: 6183895416892332845, guid: 59e60f68258583340b9275fd56c30737, type: 3}
       propertyPath: m_RootOrder
       value: 1
