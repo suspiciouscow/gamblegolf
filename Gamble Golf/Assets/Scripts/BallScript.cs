@@ -53,7 +53,6 @@ public class BallScript : MonoBehaviour {
                 Vector3 mousePos = Input.mousePosition;
                 mousePos.z = 10;
                 endPoint = camera.ScreenToWorldPoint(mousePos);
-
                 // Shoot ball
                 force = new Vector3(Mathf.Clamp(startPoint.x - endPoint.x, minPower.x, maxPower.x)
                                     , 0         
