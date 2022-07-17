@@ -737,7 +737,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 163344270}
   m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 0, y: 47.2, z: 0}
+  m_LocalPosition: {x: -13.6, y: 43.6, z: -10.8}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -2370,6 +2370,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ef6ef4a80bd756143bf457aef6d72c63, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  particleSystem: {fileID: 0}
 --- !u!1 &691514389
 GameObject:
   m_ObjectHideFlags: 0
@@ -5675,6 +5676,7 @@ MonoBehaviour:
   rb: {fileID: 1586771611}
   minPower: {x: -0.5, y: 0, z: -0.5}
   maxPower: {x: 0.5, y: 0, z: 0.5}
+  trajectoryLine: {fileID: 0}
 --- !u!54 &1586771611
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -5954,6 +5956,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f2ed21c4f33ca60408e1074e929ff608, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  numberRolled: 0
 --- !u!65 &1619052698
 BoxCollider:
   m_ObjectHideFlags: 0
