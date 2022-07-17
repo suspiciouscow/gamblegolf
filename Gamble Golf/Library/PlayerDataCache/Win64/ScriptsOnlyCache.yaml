@@ -3,8 +3,9 @@ ScriptsOnlyBuild:
     Assembly-CSharp.dll:
     - BallScript
     - DiceCheckZoneScript
-    - DiceNumberTextScript
     - DiceScript
+    - MainMenu
+    - TrajectoryLine
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
     Unity.TextMeshPro.dll:
@@ -57,24 +58,26 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1574}
+      Script: {instanceID: 1568}
     - Class: 114
-      Script: {instanceID: 1640}
+      Script: {instanceID: 1634}
     - Class: 114
-      Script: {instanceID: 2046}
+      Script: {instanceID: 2040}
     - Class: 114
-      Script: {instanceID: 2342}
+      Script: {instanceID: 2336}
     - Class: 114
-      Script: {instanceID: 2458}
+      Script: {instanceID: 2452}
     - Class: 114
-      Script: {instanceID: 2628}
+      Script: {instanceID: 2624}
     - Class: 114
-      Script: {instanceID: 2814}
+      Script: {instanceID: 2810}
     - Class: 114
-      Script: {instanceID: 3624}
+      Script: {instanceID: 3900}
     - Class: 114
-      Script: {instanceID: 3904}
+      Script: {instanceID: 3942}
     - Class: 115
+      Script: {instanceID: 0}
+    - Class: 120
       Script: {instanceID: 0}
     - Class: 128
       Script: {instanceID: 0}
@@ -118,25 +121,29 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1462}
     - Class: 114
-      Script: {instanceID: 1754}
+      Script: {instanceID: 1748}
     - Class: 114
-      Script: {instanceID: 2036}
+      Script: {instanceID: 2030}
     - Class: 114
-      Script: {instanceID: 2342}
+      Script: {instanceID: 2336}
     - Class: 114
-      Script: {instanceID: 2500}
+      Script: {instanceID: 2452}
     - Class: 114
-      Script: {instanceID: 2628}
+      Script: {instanceID: 2494}
     - Class: 114
-      Script: {instanceID: 2902}
+      Script: {instanceID: 2624}
     - Class: 114
-      Script: {instanceID: 3754}
+      Script: {instanceID: 2810}
     - Class: 114
-      Script: {instanceID: 3866}
+      Script: {instanceID: 2898}
     - Class: 114
-      Script: {instanceID: 4138}
+      Script: {instanceID: 3750}
     - Class: 114
-      Script: {instanceID: 17716}
+      Script: {instanceID: 3862}
+    - Class: 114
+      Script: {instanceID: 4136}
+    - Class: 114
+      Script: {instanceID: 16036}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -198,7 +205,7 @@ ScriptsOnlyBuild:
     className: LayoutElement
   - hash:
       serializedVersion: 2
-      Hash: 0d389bfcbafceb475193e4c5216c0564
+      Hash: 7bf0355a7dffc7f912f3f538e514e5f3
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: BallScript
@@ -498,6 +505,12 @@ ScriptsOnlyBuild:
     className: SignalTrack
   - hash:
       serializedVersion: 2
+      Hash: 8b1fe5dfdcf943fb3b72506b9f19335f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: EnvMapAnimator
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
@@ -564,6 +577,12 @@ ScriptsOnlyBuild:
     className: DiceCheckZoneScript
   - hash:
       serializedVersion: 2
+      Hash: 047ab1f0abd8b19bc071da6ebe68e5c8
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: TrajectoryLine
+  - hash:
+      serializedVersion: 2
       Hash: 6980e81ddc615a861309d2d659cc3760
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
@@ -604,6 +623,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.EventSystems
     className: TouchInputModule
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: MainMenu
   platform: 19
   scenePathNames:
   - Assets/Scenes/TItle Scene.unity
