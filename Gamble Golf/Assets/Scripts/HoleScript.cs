@@ -5,10 +5,19 @@ using UnityEngine;
 public class HoleScript : MonoBehaviour
 {
     
+    public ParticleSystem particleSystem;
+
+    void Start() {
+    }
+
+
+
+
     void OnTriggerEnter(Collider collider) 
     {
         if(collider.gameObject.tag == "Ball") {
-            Destroy(collider.gameObject);
+            collider.gameObject.SetActive(false);
+            particleSystem.Play();
         }
     }
 }
